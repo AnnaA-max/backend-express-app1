@@ -1,0 +1,16 @@
+### GET request to read all users
+GET http://localhost:3000/users
+
+### POST request to create a new user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Chalie",
+    "email": "chalie@example.com"
+}
+
+### DELETE request to delete a user
+DELETE http://localhost:3000/users/6
+
+
